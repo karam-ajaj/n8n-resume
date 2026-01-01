@@ -30,4 +30,4 @@ jobs:
                  \"branch\": \"${{ github.ref_name }}\", \
                  \"commit\": \"${{ github.event.workflow_run.head_sha }}\", \
                  \"message\": \"${{ steps.get_message.outputs.message }}\"}" \
-            <your_webhook_url>
+            https://n8n.vnerd.nl/webhook/fc896fbb-4a70-48d2-a416-564a3eeeae91
